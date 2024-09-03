@@ -1,7 +1,7 @@
 # Git-Important-Commands
 Git Imp Commands
 Steps to deploy project or upload project over github
-<br>
+<br><br>
 1. Clone a Repository : git clone "repository-link"
 2. Change Directory to repository folder : cd /currentFolder
 3. Create a New Branch : git branch new-feature
