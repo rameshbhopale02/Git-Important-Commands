@@ -16,7 +16,15 @@ Steps to deploy project or upload project over github
 12. Create Pull request :                                           To move the tempory used branch data to main branch
 13. Move to main branch (push to main)  :                           git push -u origin main
 
-   
+<br>
+Pushing any directory to github
+<br>
+git remote add origin https://github.com/rameshbhopale02/demo2.git
+<br>
+git branch -M main
+<br>
+git push -u origin main
+<br>
    
 
 
