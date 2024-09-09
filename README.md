@@ -21,7 +21,9 @@ Pushing any directory to github
 <br>
 git remote add origin https://github.com/rameshbhopale02/demo2.git
 <br>
+
 git branch -M main
+<br>
 <br>
 git push -u origin main
 <br>
