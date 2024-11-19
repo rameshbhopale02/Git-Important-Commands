@@ -19,7 +19,7 @@ Steps to deploy project or upload project over github
 <br>
 Pushing any directory to github
 <br>
-git add.
+git init
 <br>
 git add.
 <br>
