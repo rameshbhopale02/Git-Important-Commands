@@ -19,6 +19,12 @@ Steps to deploy project or upload project over github
 <br>
 Pushing any directory to github
 <br>
+git add.
+<br>
+git add.
+<br>
+git commit -m "Initial commit"
+<br>
 git remote add origin https://github.com/rameshbhopale02/demo2.git
 <br>
 
