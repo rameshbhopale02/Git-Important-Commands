@@ -33,6 +33,30 @@ git branch -M main
 <br>
 git push -u origin main
 <br>
-   
+
+<br>
+virtualenv in ubuntu
+<br>
+sudo apt update
+<br>
+sudo apt install python3-venv
+<br>
+python3 -m venv myEnv
+<br>
+source myEnv/bin/activate
+<br>
+deactivate
+<br>
+vitualenv in windows 
+<br>
+pip install virtualenv
+<br>
+virtualenv venv
+<br>
+venv\Scripts\Activate
+<br>
+deactivate
+<br>
+
 
 
