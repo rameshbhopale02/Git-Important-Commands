@@ -72,7 +72,24 @@ deactivate
 -  mysqldump -u username -p database_name table1 table2 > backup_tables.sql
 -  mysqldump -u username -p --all-databases > all_databases_backup.sql
 -  mysqldump -u username -p database_name | gzip > backup_file.sql.gz
--  
--  
 
-
+  
+## mongodb commands
+1.  show dbs
+2.  use database_name
+3.  db
+4.  db.dropDatabase
+5.  show collections
+6.  cls
+7.  db.createCollection("collection name")
+<br>
+## IMP 
+1. db.collection_name
+  -  .drop()        
+  -  .renameCollection("New Name")
+  -  .insertOne({key : value})
+  -  .insertMany([{key1 : value1}, {key2 : value2}, {key3 : value3}])  
+  -  .save({key : value})             -- insert if not present else update
+  -  .find()                          -- dispaly all document in collection
+  -  .find({key : value})
+  -  
