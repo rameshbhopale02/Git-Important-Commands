@@ -58,5 +58,21 @@ venv\Scripts\Activate
 deactivate
 <br>
 
+## mysql imp commands
+-  mysql -u root -p
+-  CREATE USER 'username'@'host' IDENTIFIED BY 'password'
+-  GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'host';
+-  SHOW GRANTS FOR 'username'@'host';
+-  SHOW GRANTS FOR 'username'@'host';
+-  DROP USER 'username'@'host';
+-  SELECT CURRENT_USER();
+-  SELECT CURRENT_USER();
+-  EXIT;
+-  mysqldump -u user_name -p database_name > backup_file.sql (backup entire database)
+-  mysqldump -u username -p database_name table1 table2 > backup_tables.sql
+-  mysqldump -u username -p --all-databases > all_databases_backup.sql
+-  mysqldump -u username -p database_name | gzip > backup_file.sql.gz
+-  
+-  
 
 
