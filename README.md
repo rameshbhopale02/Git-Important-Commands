@@ -93,4 +93,15 @@ deactivate
   -  .save({key : value})             -- insert if not present else update
   -  .find()                          -- dispaly all document in collection
   -  .find({key : value})
-  -  
+  -  .findOne({key : value})          -- find first document with matching key
+  -  .find().pretty()                 -- disply result in readable format
+  -  .countDocuments()
+  -  .find().limit(n)
+  -  .find().sort({key : 1})           -- 1 for accending and -1 for decending
+  -  .updateOne({condition}, {$set : {key : value}}
+  -  .updateMany({condition}, {$set : {key : value}}
+  -  .replaceOne({condition}, {new_document});
+  -  .deleteOne({key : value});
+  -  .deleteMany({key : value});
+  -  .deleteMany({})
+  -  .drop()
