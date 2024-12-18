@@ -72,8 +72,8 @@ deactivate
 -  mysqldump -u username -p database_name table1 table2 > backup_tables.sql
 -  mysqldump -u username -p --all-databases > all_databases_backup.sql
 -  mysqldump -u username -p database_name | gzip > backup_file.sql.gz
+<br>
 
-  
 ## mongodb commands
 1.  show dbs
 2.  use database_name
@@ -83,6 +83,7 @@ deactivate
 6.  cls
 7.  db.createCollection("collection name")
 <br>
+
 ## IMP 
 1. db.collection_name
   -  .drop()        
