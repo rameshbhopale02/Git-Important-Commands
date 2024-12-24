@@ -75,7 +75,7 @@ deactivate
 <br>
 
 ## mongodb commands
-1.  show dbs
+1.  show dbs (mongodb)
 2.  use database_name
 3.  db
 4.  db.dropDatabase
