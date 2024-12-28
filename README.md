@@ -105,3 +105,7 @@ deactivate
   -  .deleteMany({key : value});
   -  .deleteMany({})
   -  .drop()
+
+## DEPLOYE REACT APP OVER GITHUB USING GITHUB PAGES
+-  npm run build
+-  
