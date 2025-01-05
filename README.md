@@ -16,6 +16,7 @@ Steps to deploy project or upload project over github
 12. Create Pull request :                                           To move the tempory used branch data to main branch
 13. Move to main branch (push to main)  :                           git push -u origin main
 14. undo to last commit                                             git reset --soft HEAD~1
+15. if there is merge conflict in local and git                     git pull origin main --allow-unrelated-histories (commit window open can close :escape + shift -- type !wq
 <br>
 Pushing any directory to github
 <br>
