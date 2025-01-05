@@ -15,7 +15,7 @@ Steps to deploy project or upload project over github
 11. Push the Branch to the Remote Repository :                      git push origin new-feature
 12. Create Pull request :                                           To move the tempory used branch data to main branch
 13. Move to main branch (push to main)  :                           git push -u origin main
-
+14. undo to last commit                                             git reset --soft HEAD~1
 <br>
 Pushing any directory to github
 <br>
