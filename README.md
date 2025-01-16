@@ -1,7 +1,7 @@
-# Git-Important-Commands
-Git Imp Commands
+## Git-Important-Commands
+# Git Imp Commands
 Steps to deploy project or upload project over github
-<br><br>
+
 1. Clone a Repository :                                             git clone "repository-link"
 2. intialize git repo :                                             git init
 3. Change Directory to repository folder :                          cd /currentFolder
@@ -17,49 +17,28 @@ Steps to deploy project or upload project over github
 13. Move to main branch (push to main)  :                           git push -u origin main
 14. undo to last commit                                             git reset --soft HEAD~1
 15. if there is merge conflict in local and git                     git pull origin main --allow-unrelated-histories (commit window open can close :escape + shift -- type !wq
-<br>
-Pushing any directory to github
-<br>
-git init
-<br>
-git add.
-<br>
-git commit -m "Initial commit"
-<br>
-git remote add origin https://github.com/rameshbhopale02/demo2.git
-<br>
 
-git branch -M main
-<br>
-<br>
-git push -u origin main
-<br>
+# Pushing any directory to github
+- git init or git clone "link"
+- git add .
+- git commit -m "initial commit"
+- git remote add origin "link"
+- git branch -M main
+- git push -u origin main
 
-<br>
-virtualenv in ubuntu
-<br>
-sudo apt update
-<br>
-sudo apt install python3-venv
-<br>
-python3 -m venv myEnv
-<br>
-source myEnv/bin/activate
-<br>
-deactivate
-<br>
-vitualenv in windows 
-<br>
-pip install virtualenv
-<br>
-virtualenv venv
-<br>
-venv\Scripts\Activate
-<br>
-deactivate
-<br>
+# Virtual Environment Creation
+- virtualenv in ubuntu
+  1. sudo apt update
+  2. sudo apt install python3-venv
+  3. source myEnv/bin/activate
+  4. deactivate
+- virtualenv in windows
+  1. pip install virtualenv
+  2. venv/Scripts/Activate
+  3. deactivate
+       
 
-## mysql imp commands
+# mysql imp commands
 -  mysql -u root -p
 -  CREATE USER 'username'@'host' IDENTIFIED BY 'password'
 -  GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'host';
@@ -73,9 +52,8 @@ deactivate
 -  mysqldump -u username -p database_name table1 table2 > backup_tables.sql
 -  mysqldump -u username -p --all-databases > all_databases_backup.sql
 -  mysqldump -u username -p database_name | gzip > backup_file.sql.gz
-<br>
 
-## mongodb commands
+# mongodb commands
 1.  show dbs (mongodb)
 2.  use database_name
 3.  db
@@ -85,8 +63,8 @@ deactivate
 7.  db.createCollection("collection name")
 <br>
 
-## IMP 
-1. db.collection_name
+# IMP 
+1. db.collection_name (....)
   -  .drop()        
   -  .renameCollection("New Name")
   -  .insertOne({key : value})
@@ -107,6 +85,21 @@ deactivate
   -  .deleteMany({})
   -  .drop()
 
-## DEPLOYE REACT APP OVER GITHUB USING GITHUB PAGES
+# Mern Imp commands
 -  npm run build
--  
+-  npm create-react-app
+-  npm start / run
+-  npm run build
+-  npm test
+-  npm run eject
+-  npm install(i) pakage-name
+- Javascript
+  1. node filename.js
+  2. nodemon filename.js
+  3. node init
+  4. npm update
+  5. npm run start
+  6. npm -v
+  7. npm audit
+  8. npm audit fix
+
