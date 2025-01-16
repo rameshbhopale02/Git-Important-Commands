@@ -102,4 +102,7 @@ Steps to deploy project or upload project over github
   6. npm -v
   7. npm audit
   8. npm audit fix
-
+ 
+# Imp libraries i used so far
+- numpy, pandas, matplotlib, skilit-learn, opencv, tensorflow, cnn, knn, random forest, svm, f1-score, r-square, rmse
+- data science : rpart, dplyr, data tree, catools, randomforestlib, ggplot2, e1071, 
