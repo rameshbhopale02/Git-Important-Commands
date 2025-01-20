@@ -105,4 +105,14 @@ Steps to deploy project or upload project over github
  
 # Imp libraries i used so far
 - numpy, pandas, matplotlib, skilit-learn, opencv, tensorflow, cnn, knn, random forest, svm, f1-score, r-square, rmse
-- data science : rpart, dplyr, data tree, catools, randomforestlib, ggplot2, e1071, 
+- data science : rpart, dplyr, data tree, catools, randomforestlib, ggplot2, e1071,
+- Pandas :Key Features
+1.  Data Cleaning: Handle missing data easily with methods like .fillna(), .dropna(), etc.
+2.  Data Transformation: Provides tools for reshaping, slicing, indexing, and filtering data.
+3.   Aggregation and Grouping: Use methods like .groupby() for summarizing data.
+4.   Data Merging: Combine datasets using .merge(), .join(), and .concat().
+-  Numpy : NumPy (short for Numerical Python) is a fundamental library for numerical computing in Python. It is extensively used for performing mathematical operations on large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions.
+-  Scikit-learn (also known as sklearn) is a powerful Python library for machine learning, providing tools for building and evaluating machine learning models. It is built on top of NumPy, SciPy, and Matplotlib and is widely used for tasks such as classification, regression, clustering, and preprocessing.
+- OpenCV (Open Source Computer Vision Library) is an open-source library used extensively in computer vision, image processing, and machine learning. It provides tools for analyzing and manipulating images and videos and is widely used for applications like object detection, facial recognition, and augmented reality.
+- TensorFlow is an open-source machine learning framework developed by Google. It is widely used for developing and deploying machine learning and deep learning models.
+- 
