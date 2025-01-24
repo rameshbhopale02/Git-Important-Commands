@@ -27,6 +27,8 @@ Steps to deploy project or upload project over github
 - git push -u origin main
 
 # Virtual Environment Creation
+- Python
+  1. python -m virtualenv <nameOfEnv>
 - virtualenv in ubuntu
   1. sudo apt update
   2. sudo apt install python3-venv
