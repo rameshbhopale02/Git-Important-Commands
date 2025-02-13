@@ -117,4 +117,12 @@ Steps to deploy project or upload project over github
 -  Scikit-learn (also known as sklearn) is a powerful Python library for machine learning, providing tools for building and evaluating machine learning models. It is built on top of NumPy, SciPy, and Matplotlib and is widely used for tasks such as classification, regression, clustering, and preprocessing.
 - OpenCV (Open Source Computer Vision Library) is an open-source library used extensively in computer vision, image processing, and machine learning. It provides tools for analyzing and manipulating images and videos and is widely used for applications like object detection, facial recognition, and augmented reality.
 - TensorFlow is an open-source machine learning framework developed by Google. It is widely used for developing and deploying machine learning and deep learning models.
-- 
+
+# Indexing on MYSQL imp Queries
+1. create index index_name on table_name(column_name)
+2. drop index index_name on table_name;
+3. show index from table_name
+4. EXPLAIN SELECT * FROM Employees WHERE Name = 'John Doe' retrive which index is being used 
+5. alter table table_name rename to new_table_name : renaming table name
+6. alter table table_name drop constraint column_name
+7. 
