@@ -126,3 +126,6 @@ Steps to deploy project or upload project over github
 5. alter table table_name rename to new_table_name : renaming table name
 6. alter table table_name drop constraint column_name
 7. 
+
+
+### Git is an open-source version control system that helps the developers to store, track, and manage the code
