@@ -1,10 +1,13 @@
 ## Git-Important-Commands
-
+----
 # Merging feature branch to main branch
-
+<br>
  a. creating new branch (git branch new-feature)
+ <br>
  b. adding without any removal of first (move to main branch (git merge new-feature) no commit required
+ <br>
  c. adding by removing something previous (move to main branch (git merge new-feature) commit required
+ <br>
    
 
 # Git Imp Commands
